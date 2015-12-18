@@ -11,63 +11,65 @@
 	<script type="text/javascript" src="js/app.js"></script>
 </head>
 
-<body >
-	<script id="tout" type="x-tmpl-mustache">  </script>        
+<body>
+	<script id="tout" type="x-tmpl-mustache">         
 
-	<div id="global"> 
+		<div id="global"> 
 
-		<div class="entete">
+			<div class="entete">
 
-			<div id="tete">
-				<img src="https://unsplash.it/g/458/354" alt="">
+				<div id="tete">
+					<img src="https://unsplash.it/g/458/354" alt="">
+				</div>
+
+				<div id="nom">
+
+					<h1>{{first_name}} {{last_name}}</h1>
+					<h4>{{occupation}}</h4>
+					<h5 id="bio">L extrait standard de Lorem Ipsum utilisé depuis le XVIè siècle est reproduit ci-dessous pour les curieux. Les sections 1.10.32 et 1.10.33 du De Finibus Bonorum et Malorum de Cicéron sont aussi reproduites dans leur version originale, accompagnée de la traduction anglaise de H. Rackham (1914).</h5>
+
+				</div>
+
 			</div>
 
-			<div id="nom">
+			<div id="corps">	
 
-				<h4><span elt="first_name"></span><span elt="last_name"></span></h4>
-				<h5><span elt="occupation"></span></h5>
-				<h5>L'extrait standard de Lorem Ipsum utilisé depuis le XVIè siècle est reproduit ci-dessous pour les curieux. Les sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" de Cicéron sont aussi reproduites dans leur version originale, accompagnée de la traduction anglaise de H. Rackham (1914).</h5>
+				<div id="liens">
 
-			</div>
-
-		</div>
-
-		<div id="corps">	
-
-			<div id="liens">
-				
-				<ul id="liste">
-					<li><h4><em>menu</em></h4></li>
-					<li class="a"><a href="#premier">1er texte</a></li>
-					<li><a href="#dexieme">2eme texte</a></li>
-					
-					
-				</ul>
-			</div>
-
-			<div id="textes">
-				<div id="premier" class="cache">
-
-				<h6 >QU'est-ce quele lorem ipsum?</h6>
-
-				<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p></div>
-
-				<div id="dexieme" class="cache">
-				<h6>Pourquoi l'utiliser?</h6>
-
-				<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
+					<ul id="liste">
+						<li><h4><em>menu</em></h4></li>
+						<li class="a"><a href="#premier">1er texte</a></li>
+						<li><a href="#dexieme">2eme texte</a></li>
 
 
-				avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des
+					</ul>
+				</div>
+
+				<div id="textes">
+					<div id="premier" class="cache">
+
+					<h6>QU est-ce quele lorem ipsum?</h6>
+
+						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n a pas fait que survivre cinq siècles, mais s est aussi adapté à la bureautique informatique, sans que son contenu n en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p></div>
+
+						<div id="dexieme" class="cache">
+							<h6>Pourquoi l utiliser?</h6>
+
+							<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L avantage du Lorem Ipsum sur un texte générique comme  Du texte. Du texte. Du texte. est qu il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour  Lorem Ipsum  vous conduira vers de nombreux sites qui n en sont encore qu à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d y rajouter de petits clins d oeil, voire des phrases embarassantes).
 
 
-				avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des
+								avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L avantage du Lorem Ipsum sur un texte générique comme  Du texte. Du texte. Du texte. est qu il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour  Lorem Ipsum  vous conduira vers de nombreux sites qui n en sont encore qu à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d y rajouter de petits clins d oeil, voire des
 
-				uuuuuuuuuuuuu uuuuuuuuuuuu uuuuuuuuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuuuu uuuuuuuuuu uuuuuuuuuuuu uuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuu uuuuuuuuuuu uuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu uuuuuuuuu uuuuuuuuuu uuuuuuuu uuuuuu uuuuuuuuuuuuuuuuu uuuuuuuuuuu   uuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuu uuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuu uuuuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
-				</p></div>
-				
-				
-			</div>
-		</div>
-	</div>		
-</body>
+
+									avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L avantage du Lorem Ipsum sur un texte générique comme Du texte. Du texte. Du texte. est quil possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour Lorem Ipsum vous conduira vers de nombreux sites qui n en sont encore qu à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d y rajouter de petits clins d oeil, voire des
+
+										uuuuuuuuuuuuu uuuuuuuuuuuu uuuuuuuuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuuuu uuuuuuuuuu uuuuuuuuuuuu uuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuu uuuuuuuuuuu uuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu uuuuuuuuu uuuuuuuuuu uuuuuuuu uuuuuu uuuuuuuuuuuuuuuuu uuuuuuuuuuu   uuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuu uuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuu uuuuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+									</p></div>
+
+
+								</div>
+							</div>
+						</div>	
+					</script>
+					 	
+				</body>

@@ -29,8 +29,11 @@ img {
 
 
 #nom {
+  width: 940px;
   text-align: center;
+  padding-left:280px;
 }
+
 
 #corps{
    width: 940px;
@@ -60,7 +63,9 @@ ul li{
   width:75%;
   float:left;
 
+
 }
 .cache{
   display: none;
+  padding-right: 100px;
 }
