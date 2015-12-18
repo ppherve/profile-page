@@ -1,0 +1,66 @@
+body{
+	background:#ffffff ;
+	margin: 0;
+	padding: 0;
+}
+
+
+#global{
+  margin: 0 auto;
+  width: 100%;
+  background: #e0e0e0;
+}
+.entete{
+  padding: 15px;
+
+}
+
+
+#tete {
+  margin: 0 auto; 
+  text-align: center;  
+}
+
+img {
+    border-radius:150px;
+    width:205px;
+    height:205px;
+}
+
+
+#nom {
+  text-align: center;
+}
+
+#corps{
+   width: 940px;
+   margin: 0 auto;
+} 
+
+#liens{
+  
+  background: #b0bec5;
+  float:right;
+  width: 25%;
+  height: 500px;
+  border-radius: 20px;
+}
+#liste{
+  padding-left: 0px;
+}
+ul li{
+  
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 40px;
+
+}
+#textes{
+  background: #ffffff;
+  width:75%;
+  float:left;
+
+}
+.cache{
+  display: none;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "profile-page",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "zepto": "~0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppherve/profile-page.git"
+  },
+  "author": "herve",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ppherve/profile-page/issues"
+  }
+}
